@@ -1,11 +1,13 @@
-a=int(input())
-c=a**2
-sum=0
+n=int(input())
+c=n*n
+
+s=0
 while(c!=0):
-    b=c%10
-    sum=sum+b
+    r=c%10
+    s=s+r
     c=c//10
-if(sum==a):
+if(n==s):
     print("Neon Number")
 else:
     print("Not Neon Number")
+    
