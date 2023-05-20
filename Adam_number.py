@@ -1,17 +1,17 @@
 n=int(input())
-t=n**2 #144
+c=n*n
 rev=0
 re=0
 while(n!=0):
-    c=n%10
-    rev=rev*10+c
+    r=n%10
+    rev=rev*10+r
     n=n//10
-d=rev**2
+d=rev*rev
 while(d!=0):
-    e=d%10
-    re=re*10+e
+    p=d%10
+    re=re*10+p
     d=d//10
-if(re==t):
+if(re==c):
     print("True")
 else:
     print("False")
