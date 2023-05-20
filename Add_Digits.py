@@ -1,11 +1,10 @@
-t=int(input())
+a=int(input())
 s=0
-while(t!=0):
-    c=t%10
+while(a!=0):
+    c=a%10
     s=s+c
-    t=t//10
-    if(t==0 and s>9):
-        t=s
+    a=a//10
+    if(a==0 and s>9):
+        a=s
         s=0
 print(s)
-    
