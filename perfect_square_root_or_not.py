@@ -1,9 +1,6 @@
 n=int(input())
-s=0
-for i in range (1,n+1):
-    if(n==i*i):
-        s=i*i
-if(n==s):
-        print("True")
+s=n**0.5
+if(s.is_integer()):
+    print("True")
 else:
     print("False")
